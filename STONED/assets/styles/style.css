@@ -1,0 +1,142 @@
+*{
+
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  
+}
+body{
+height: 600px;
+background-color: black;
+}
+nav{
+display: flex;
+justify-content: space-between;
+font-family: 'Oswald', sans-serif;
+padding: 20px;
+color: #EF26FA;
+border-bottom: 0.1px solid #723575;
+align-items: center;
+height: 100px;
+
+}
+
+.nav-logo{
+    margin-left: 50px;
+    font-size: 42px;
+    color: #EF26FA;
+    text-decoration: none;
+    font-family: 'Oswald', sans-serif;
+}
+.nav-items{
+
+font-size: 25px ;
+box-sizing: border-box;
+}
+.nav-link{
+    color: #EF26FA;
+    border-bottom: 0.1px solid #EF26FA;
+margin-right: 40px;
+font-size:23px;
+cursor: pointer;
+background-color: black;
+text-shadow: 0 0 35px #EF26FA;
+opacity: 0.4;
+
+transition: 0.7s ;
+transition-delay: 0.2s;
+}
+.nav-link:hover{
+opacity: 1;
+transition: 0.6s ;
+/* text-shadow: 0 0 35px #EF26FA; */
+transition-delay: 0.1s;
+}
+/* -------------------------------------------------------- */
+
+
+.container{
+
+    display: flex;
+    flex-direction: column;
+font-family: Arial, Helvetica, sans-serif ;
+color: #ba1dc2c5;
+margin: 60px;
+}
+.content-title{
+    width: 50%;
+    font-size: 42px;
+    animation: neon 1s ease-in-out infinite alternate;
+
+}
+@keyframes neon {
+    from {
+        text-shadow: 0 0 35px #7F31F5,
+                     0 0 40px #EF26FA,
+                     0 0 55px #3921DE;
+    }
+}
+.content-text{
+
+font-size: 18px;
+color:#f06ff775;
+
+width: 40%;
+margin-left: 10px;
+margin-top: 15px;
+}
+
+.content-button{
+
+margin-top: 120px;
+border-radius: 20px;
+
+width: 300px;
+font-size: 17px;
+box-sizing:border-box;
+padding: 26px;
+background-color: black;
+border-color: #EF26FA;
+color: #723575;
+transition: 0.7s;
+}
+
+.content-button:hover{
+transition: 1s;
+border-radius: 35px;
+cursor: pointer;
+color: #EF26FA;
+}
+.socials{
+display: flex;
+position:relative;
+
+justify-content: space-between;
+width: 270px;
+left: 5%;
+display: none;
+}
+.image{
+
+background-color: #ef26fa93;
+width: 60px;
+border-radius: 40px;
+padding: 5px;
+}
+#fotter-text{
+
+text-shadow:  0px 0px 10px #EF26FA;
+color: rgba(255, 255, 255, 0.37);
+font-size: 20px;
+font-family: Arial, Helvetica, sans-serif;
+position: absolute;
+bottom: 0; 
+margin-left: 13px;
+
+}
+
+
+
+
+
+
